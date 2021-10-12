@@ -1,0 +1,30 @@
+{
+  "name": "js-deeplover-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "npm run lint",
+    "build": "vite build",
+    "lint": "eslint ./src/**/*.js",
+    "test": "jest",
+    "prepreview": "npm run build",
+    "preview": "npm run serve",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laruiss/js-deeplover-vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laruiss/js-deeplover-vite/issues"
+  },
+  "homepage": "https://github.com/laruiss/js-deeplover-vite#readme",
+  "devDependencies": {
+    "vite": "^2.6.7"
+  }
+}
